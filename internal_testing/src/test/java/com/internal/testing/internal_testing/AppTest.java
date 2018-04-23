@@ -19,7 +19,7 @@ public class AppTest {
 		@BeforeTest
 		public void beforeTest() {	
 			System.setProperty("webdriver.chrome.driver", "C:\\Development\\tools\\Selenium\\chromedriver_win32\\chromedriver.exe");
-			
+			// wrong part
 			driver = new ChromeDriver();  
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
